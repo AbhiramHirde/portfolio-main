@@ -130,32 +130,35 @@ export const Hero = () => {
           </div>
 
           {/* RIGHT PANEL (IMAGE ADDED HERE) */}
-          <div className="lg:col-span-5 lg:col-start-9">
-            <div className="border border-white/10 bg-[#0f0f0f] p-6 space-y-6">
+          {/* RIGHT PANEL (IMPROVED IMAGE CARD) */}
+<div className="lg:col-span-5 lg:col-start-9">
+  <div className="border border-white/10 bg-[#0f0f0f] p-6 space-y-6">
 
-              {/* PROFILE IMAGE */}
-              <div className="flex justify-center">
-                <img
-  src="/assets/profile.png"
-  alt="Profile"
-  className="w-32 h-32 rounded-full object-cover border border-[#ccff00]"
-/>
-              </div>
+    {/* IMAGE CARD */}
+    <div className="w-full h-[320px] overflow-hidden border border-[#ccff00]/40 bg-black">
+      <img
+        src="/assets/profile.png"
+        alt="Profile"
+        className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500"
+      />
+    </div>
 
-              <div className="font-mono text-xs uppercase tracking-[0.2em] text-[#52525b] mb-2">
-                // stats.json
-              </div>
+    {/* LABEL */}
+    <div className="font-mono text-xs uppercase tracking-[0.2em] text-[#52525b]">
+      // stats.json
+    </div>
 
-              <div className="space-y-3 font-mono text-sm">
-                <Row k="role" v={profile.role} />
-                <Row k="location" v={profile.location} />
-                <Row k="education" v="PICT, Pune" />
-                <Row k="focus" v="Full-Stack · ML" />
-                <Row k="status" v="Available 2026" accent />
-              </div>
+    {/* STATS */}
+    <div className="space-y-3 font-mono text-sm">
+      <Row k="role" v={profile.role} />
+      <Row k="location" v={profile.location} />
+      <Row k="education" v="PICT, Pune" />
+      <Row k="focus" v="Full-Stack · ML" />
+      <Row k="status" v="Available 2026" accent />
+    </div>
 
-            </div>
-          </div>
+  </div>
+</div>
 
         </div>
       </div>
