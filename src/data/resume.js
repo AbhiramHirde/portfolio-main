@@ -13,6 +13,9 @@ export const profile = {
   resumeUrl: "/assets/Abhiram_Hirde_Resume.pdf",
   status: "Open to opportunities · 2026 grad",
   bio: "Engineering student at PICT, Pune — currently obsessed with shipping clean, fast, full-stack interfaces and exploring the edge where ML meets product. I write code that feels intentional, not generated.",
+
+  // ✅ ADD YOUR PHOTO HERE
+  photo: "/assets/profile.jpg",
 };
 
 export const skills = [
@@ -45,13 +48,7 @@ export const skills = [
   },
   {
     group: "Core CS",
-    items: [
-      "DBMS",
-      "Operating Systems",
-      "OOP",
-      "Computer Networks",
-      "SDLC",
-    ],
+    items: ["DBMS", "Operating Systems", "OOP", "Computer Networks", "SDLC"],
   },
 ];
 
