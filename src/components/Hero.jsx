@@ -129,8 +129,8 @@ export const Hero = () => {
             </div>
           </div>
 
-          {/* RIGHT PANEL (FIXED) */}
-          <div className="lg:col-span-5">
+          {/* RIGHT PANEL (MOVED UP) */}
+          <div className="lg:col-span-5 -mt-6">
             <div className="border border-white/10 bg-[#0f0f0f] p-6 space-y-6">
 
               {/* IMAGE */}
