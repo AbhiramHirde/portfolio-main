@@ -131,7 +131,7 @@ export const Hero = () => {
 
           {/* RIGHT PANEL (IMAGE ADDED HERE) */}
           {/* RIGHT PANEL (IMPROVED IMAGE CARD) */}
-<div className="lg:col-span-5 lg:col-start-9">
+<div className="lg:col-span-5 lg:col-start-9 lg:-translate-y-4">
   <div className="border border-white/10 bg-[#0f0f0f] p-6 space-y-6">
 
     {/* IMAGE CARD */}
