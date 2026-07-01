@@ -1,0 +1,13 @@
+
+Action: file_editor create /app/frontend/vercel.json --file-text "{
+  \"$schema\": \"https://openapi.vercel.sh/vercel.json\",
+  \"buildCommand\": \"yarn build\",
+  \"outputDirectory\": \"build\",
+  \"installCommand\": \"yarn install --frozen-lockfile\",
+  \"framework\": \"create-react-app\",
+  \"rewrites\": [
+    { \"source\": \"/(.*)\", \"destination\": \"/\" }
+  ]
+}
+"
+// Observation: Create successful: /app/frontend/vercel.json
